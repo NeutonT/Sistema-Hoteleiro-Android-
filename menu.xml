@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titulo_cliente_menuCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Cliente"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/botao_cadastrar_menuCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="cadastrar"
+        app:layout_constraintEnd_toEndOf="@+id/titulo_cliente_menuCliente"
+        app:layout_constraintStart_toStartOf="@+id/titulo_cliente_menuCliente"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_cliente_menuCliente" />
+
+    <Button
+        android:id="@+id/botao_consultar_menuCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="consultar"
+        app:layout_constraintEnd_toEndOf="@+id/botao_cadastrar_menuCliente"
+        app:layout_constraintStart_toStartOf="@+id/botao_cadastrar_menuCliente"
+        app:layout_constraintTop_toBottomOf="@+id/botao_cadastrar_menuCliente" />
+
+    <Button
+        android:id="@+id/botao_cadastrarQuarto_menuCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="cadastrar_quarto"
+        app:layout_constraintEnd_toEndOf="@+id/botao_consultar_menuCliente"
+        app:layout_constraintStart_toStartOf="@+id/botao_consultar_menuCliente"
+        app:layout_constraintTop_toBottomOf="@+id/botao_consultar_menuCliente" />
+
+    <Button
+        android:id="@+id/botao_consultarQuarto_menuCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="consultar_quarto"
+        app:layout_constraintEnd_toEndOf="@+id/botao_cadastrarQuarto_menuCliente"
+        app:layout_constraintStart_toStartOf="@+id/botao_cadastrarQuarto_menuCliente"
+        app:layout_constraintTop_toBottomOf="@+id/botao_cadastrarQuarto_menuCliente" />
+
+</android.support.constraint.ConstraintLayout>
