@@ -1,7 +1,7 @@
 # Sistema-Hoteleiro-Android-
 Projeto de Dispositivos Móveis - UNINORTE - 2018
 
-Integrantes:Neuton Thomé; Diego Rodrigues; Wagner Sousa; Francisco Halisson
+Integrantes: Neuton Thomé; Diego Rodrigues; Wagner Sousa; Francisco Halisson
 
 O APK está com o nome "app-debug.apk"
 
